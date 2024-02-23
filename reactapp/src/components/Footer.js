@@ -22,7 +22,13 @@ function Footer({ t, i18n }) {
               <i className="fas fa-house mr-3"></i> Barcelona, Spain
             </p>
             <p style={{ marginBottom: "5px" }}>
-              <i className="fas fa-envelope mr-3"></i> ukrainianInBcn@gmail.com
+              <a
+                href="mailto:ukrainianInBcn@gmail.com"
+                style={{ color: "white" }}
+              >
+                <i className="fas fa-envelope mr-3"></i>{" "}
+                ukrainianInBcn@gmail.com
+              </a>
             </p>
             <p style={{ marginBottom: "5px" }}>
               <i className="fas fa-phone mr-3"></i> +34 123456789
