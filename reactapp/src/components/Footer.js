@@ -25,7 +25,7 @@ function Footer({ t, i18n }) {
               <i className="fas fa-envelope mr-3"></i> ukrainianInBcn@gmail.com
             </p>
             <p style={{ marginBottom: "5px" }}>
-              <i className="fas fa-phone mr-3"></i> +34 123456789
+            <i class="fa-brands fa-whatsapp"></i> <a className="no-formatting-link" href="https://wa.me/34123456789?text=Hi,%20I’m%20interested%20in%20more%20information.">+34 123456789</a>
             </p>
           </div>
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-1 mb-1">
