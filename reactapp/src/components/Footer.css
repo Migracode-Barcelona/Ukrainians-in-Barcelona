@@ -38,3 +38,14 @@ i {
     background-color: #555;
   }
 }
+
+.no-formatting-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.no-formatting-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  color: white;
+}
