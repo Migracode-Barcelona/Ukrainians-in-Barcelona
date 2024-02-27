@@ -29,7 +29,7 @@ const JobForm = () => {
         // You might want to reset the form or perform other actions after a successful submission
       })
       .catch((error) => {
-        console.error("Error:", error);
+        console.error("Error:", "No data on job offers was sent.");
         // Handle error
       });
   };
